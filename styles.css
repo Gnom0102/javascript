@@ -1,0 +1,314 @@
+* {
+    font-family: Manrope;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #140E17;
+    margin: 0;
+    padding: 64px 20px 220px 20px;
+}
+
+h1, h2, h3, h4,h5, h6, p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.main-border {
+    border: 1px solid#333333;
+    border-radius: 18px; 
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+}
+
+.my-photo {
+    max-width: 400px;
+    width: 100%;
+}
+
+.short-info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    color: white;
+}
+
+.name {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.write-action {
+    margin-top: 42px;
+    text-decoration: none;
+    background-color: #AADB6B;
+    border-radius: 18px;
+    max-width: 232px;
+    padding: 18px 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.write-action span {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+}
+
+.social {
+    margin: 24px 24px 32px 24px;
+}
+
+.socials h3{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 26px;
+   margin: 24px 24px 32px 24px;
+}
+
+.social-links {
+    margin: 32px 0 0 0;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    padding: 8px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    max-width: 232px;
+    width: 100%;
+}
+
+.social-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.bold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.bio {
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.bio p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.work-experience {
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.company {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.company .period {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #76757B;
+}
+
+.company-link a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #76757B;
+}
+
+.position {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.portfolio h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    margin-left: 24px;
+}
+
+.portfolio .items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.portfolio .items .item {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #AADB6B;
+    gap: 48px;
+    border-radius: 32px;
+    padding: 32px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 628px;
+    width: 100%;
+}
+
+.project .project-name {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+}
+
+.project .project-description {
+    font-weight: 500;
+    font-size:  18px;
+    line-height: 26px;
+}
+
+.sow-project {
+    display: flex;
+    justify-content: end;
+}
+
+.sow-project a {
+    max-width: 180px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 18px 14px;
+    border-radius: 18px;
+    border: 1px solid #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.sow-project span {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        gap: 56px;
+    }
+
+    .short-info {
+        max-width: 352px;
+    }
+
+    .social-link {
+        max-width: 352px;
+        flex: 1;
+        flex-basis: 200px;
+    }
+
+    .project-photo img {
+        width: 100%;
+    }
+
+    .project {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .social-link {
+        flex-basis: 155px;
+    }
+
+    .portfolio .items .item {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .project-photo {
+        flex-basis: auto;
+    }
+
+    .hidden-480 {
+        display: none;
+    }
+}
